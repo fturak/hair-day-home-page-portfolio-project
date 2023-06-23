@@ -1,6 +1,6 @@
 # Meta Front End Professional - Course 4 - Portfolio Project
 
-This is my [Firas Turak](https://www.linkedin.com/in/firasturak/) solution to the portfolio project. I completed the project for the Hair Day client and made all the necesarry features (layout, meta tags etc.) for their home page.
+This is my [Firas Turak](https://www.linkedin.com/in/firasturak/) solution to the portfolio project. I completed the project for the Hair Day client, added design choices and made all the necesarry features (layout, meta tags etc.) for their home page whilst adhering to the requirements, and making it fully responsive.
 
 ## Table of contents
 
