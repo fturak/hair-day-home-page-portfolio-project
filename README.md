@@ -16,7 +16,7 @@ This is my [Firas Turak](https://www.linkedin.com/in/firasturak/) solution to th
 
 ### Screenshot (on open)
 
-![Solution](./load-image.JPG)
+![Solution](./img/load-image.JPG)
 
 ### Links
 
