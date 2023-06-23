@@ -20,7 +20,7 @@ This is my [Firas Turak](https://www.linkedin.com/in/firasturak/) solution to th
 
 ### Links
 
-- Solution URL: [Click 'View Deployment'](link)
+- Solution URL: [Click 'View Deployment'](https://github.com/fturak/hair-day-home-page-portfolio-project/deployments/activity_log?environment=github-pages)
 
 ### What I learned
  HTML semantics and unspecific as possible class selectors in CSS.
