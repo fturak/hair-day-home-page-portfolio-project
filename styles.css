@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: #EFF7F6;
+}
+
+h1 {
+    font-size: 3rem;
+    color:#EFF7F6;
+    margin-bottom: 1rem; 
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 5px; 
+    color:#120b0b;
+}
+
+button {
+    border: none;
+    border-radius: 0.1rem;
+    background-color:#d0604c;
+    color:#120b0b;
+    padding: 1rem;
+    width: 100%;
+}
+
+a {
+    color:#EFF7F6;
+    text-decoration: none; 
+}
+
+button:hover {
+    background-color:#120b0b;
+    color:#d0604c;
+    cursor: pointer;
+}
+
+header > img {
+    display: block; /*no inline elements*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+    padding: 1rem 0rem 1rem 0rem;
+
+}
+
+nav {
+    background-color: #120b0b;
+    color:#EFF7F6;
+    font-weight: bold;
+    border-radius: 0.1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+nav li {
+    flex: 1;
+    margin: 1rem;
+}
+
+nav a:hover {
+    color:#d0604c;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+#promotion {
+    background-image: url("./img/salon-model.jpg");
+    background-size: cover;
+    text-align: right;
+    padding: 10rem;
+    border-radius: 0.1rem;
+    height: 20rem;
+}
+
+#cards {
+    gap: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+#cards article {
+    padding: 0.8rem;
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cards img {
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+    border-radius: 0.1rem;
+}
+
+footer {
+    display: flex;
+    background-color: #120b0b;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color:#d6d6d6;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width:8rem;
+}
+
+footer p {
+    text-align: right;
+}
+
+@media (max-width: 900px) {
+    body {
+        margin: 0;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    #promotion {
+        height: 10rem;
+        padding: 1rem;
+    }
+
+    #cards {
+        margin: 0;
+    }
+
+    nav, main {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    section {
+        display: block;
+    }
+}
